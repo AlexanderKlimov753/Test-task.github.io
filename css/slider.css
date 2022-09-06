@@ -1,0 +1,64 @@
+.flex-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-prev, #btn-next {
+    position: absolute;
+    left: 50.75px;
+    top: 49.04px;
+    height: 74.56px;
+    width: 37.28px;
+    cursor: pointer;
+    transition: opacity .2s ease-in-out;
+}
+
+.btn-prev:hover, .btn-next:hover {
+  cursor: pointer;
+}
+
+#btn-next {
+    left: auto;
+    right:50.75px ;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.slide__wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-top: 58.25px;
+}
+
+.wrapper__btn {
+    position: inherit;
+}
+
+.wrapper__text {
+    margin-right: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+a.btn_link {
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+

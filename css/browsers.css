@@ -1,0 +1,16 @@
+*{
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+button {
+    -webkit-box-shadow: 2px 5px 10px #497957;
+    box-shadow: 2px 5px 10px #497957;
+    box-shadow: 2px 5px 10px #497957; 
+}
+
+
+
+
+ 
